@@ -169,6 +169,14 @@ Easy investment management in the cryptocurrency market and creating a financing
                 </div>
             </div>
         </li>
+        <li class="list-group-item">
+            <div class="media">
+                <i class="bi bi-check-circle-fill me-3 text-primary"></i>
+                <div class="media-body">
+                    Community airdrops
+                </div>
+            </div>
+        </li>
         </ul>
 		</div>
 	</div>
