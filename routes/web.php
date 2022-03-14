@@ -69,6 +69,7 @@ Route::GROUP(['prefix' => 'member',  'middleware' => ['role:member']], function(
     Route::GET('/', 'HomeController@index')->name('member');
     Route::GET('exchange', 'HomeController@exchange')->name('member.exchange');
     Route::GET('stacking', 'HomeController@stacking')->name('member.stacking');
+    Route::GET('lottery', 'HomeController@lottery')->name('member.lottery');
     Route::GET('investment', 'HomeController@investment')->name('member.investment');
     Route::GET('portofolio', 'HomeController@portofolio')->name('member.portofolio');
     Route::GET('contact', 'HomeController@contact')->name('member.contact');

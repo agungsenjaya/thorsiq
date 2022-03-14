@@ -147,6 +147,11 @@ class HomeController extends Controller
         return view('member.stacking');
     }
     
+    public function lottery()
+    {
+        return view('member.lottery');
+    }
+    
     public function exchange()
     {
         return view('member.exchange');

@@ -21,7 +21,7 @@ class CreateUserInfosTable extends Migration
             $table->string('telegram_id');
             $table->string('twitter_id');
             $table->bigInteger('phone');
-            $table->bigInteger('phone_2');
+            $table->bigInteger('phone_2')->nullable();
             $table->string('city')->nullable();
             $table->string('zip')->nullable();
             $table->string('country');

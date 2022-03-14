@@ -94,8 +94,8 @@ $data = \App\UserInfo::where('user_id', Auth::user()->id)->first();
     <input class="form-control" name="phone" required value="{{ ($data) ? $data->phone : '' }}">
   </div>
   <div class="col-md mb-3">
-    <label class="form-label">Phone 2<span class="text-danger ms-1">*</span></label>
-    <input class="form-control" name="phone_2" required value="{{ ($data) ? $data->phone_2 : '' }}">
+    <label class="form-label">Phone 2</label>
+    <input class="form-control" name="phone_2" value="{{ ($data) ? $data->phone_2 : '' }}">
   </div>
   </div>
   <div class="row">
